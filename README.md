@@ -15,6 +15,8 @@ To set up and run the game, follow these steps:
    ```
    sudo apt-get install libncurses5-dev libncursesw5-dev
    ```
+   
+On Windows, replace ncurses with [PDCurses](https://pdcurses.org/). Download PDCurses, include its headers and link against its libraries in your project.
 
 3. Open the `Makefile` in a text editor and make sure the `CC` variable is set to your C compiler. For example, if you're using GCC, it should look like this:
    ```
